@@ -261,7 +261,8 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   width: 71vw;
-  height: fit-content;
+  height: auto;
+  max-height: 60vh;
   top: 12vh;
   padding: 1vw 5vw 1vw 5vw;
   align-items: center;
