@@ -13,6 +13,7 @@ h2 {
 .linkhere {
   text-decoration: none;
   color: rgb(109, 109, 138);
+  z-index: 1000;
 }
 .linkhere:hover {
   text-decoration: none;
@@ -263,6 +264,7 @@ nav ul li a:hover {
   height: fit-content;
   top: 12vh;
   padding: 1vw 5vw 1vw 5vw;
+  z-index: 100;
   align-items: center;
   box-shadow: 10px 10px 30px 10px rgba(100, 100, 100, 0.3),
     -10px -10px 30px 10px rgba(255, 255, 255, 0.5),
