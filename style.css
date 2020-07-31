@@ -7,7 +7,17 @@ body {
   font-family: "Raleway", sans-serif;
   background: rgb(247, 247, 247);
 }
-
+h2 {
+  font-size: 1em;
+}
+.linkhere {
+  text-decoration: none;
+  color: rgb(109, 109, 138);
+}
+.linkhere:hover {
+  text-decoration: none;
+  color: rgb(187, 198, 211);
+}
 /* navbar */
 nav {
   padding: 8px;
