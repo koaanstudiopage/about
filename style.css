@@ -236,17 +236,36 @@ nav ul li a:hover {
   padding-right: 8vw;
   padding-top: 0vh;
 
-  background-color: rgb(247, 247, 247);
+  background: url(./cloudback.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   padding-bottom: 0vh;
   justify-content: space-evenly;
 }
-
-@media screen and (max-width: 864px) {
-  .padder {
-    padding-top: 0px;
+.wordblock {
+  position: relative;
+  background: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
+  width: 71vw;
+  height: 40vh;
+  top: 12vh;
+  padding: 1vw 5vw 1vw 5vw;
+  align-items: center;
+  box-shadow: 10px 10px 30px 10px rgba(100, 100, 100, 0.3),
+    -10px -10px 30px 10px rgba(255, 255, 255, 0.5),
+    inset 10px 10px 30px 10px rgba(120, 120, 120, 0.1),
+    inset -10px -10px 30px 10px rgba(255, 255, 255, 1);
+}
+@media screen and (min-width: 864px) {
+  .wordblock {
+    top: 25vh;
   }
+}
+.padder {
+  padding-top: 5vh;
 }
 /*footer*/
 footer {
